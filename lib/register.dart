@@ -36,12 +36,12 @@ class _Register extends State<Register> {
         body: new Column(
           children: <Widget>[
             new Container(
-              padding: EdgeInsets.only(top: 100.0, bottom: 10.0),
-              child: new Text(
-                'Register',
-                style: TextStyle(
-                    color: Color.fromARGB(255, 53, 53, 53), fontSize: 50.0),
-              )),
+                padding: EdgeInsets.only(top: 100.0, bottom: 10.0),
+                child: new Text(
+                  'Register',
+                  style: TextStyle(
+                      color: Color.fromARGB(255, 53, 53, 53), fontSize: 50.0),
+                )),
             new Container(
               padding: const EdgeInsets.all(16.0),
               child: new Form(
@@ -99,8 +99,8 @@ class _Register extends State<Register> {
                             suffixIcon: new IconButton(
                               icon: new Icon(
                                 isShowPassWord
-                                  ? Icons.visibility
-                                  : Icons.visibility_off,
+                                    ? Icons.visibility
+                                    : Icons.visibility_off,
                                 color: Color.fromARGB(255, 126, 126, 126),
                               ),
                               onPressed: showPassWord,

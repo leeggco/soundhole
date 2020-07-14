@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class Login extends StatefulWidget {
+class Forget extends StatefulWidget {
   @override
-  _Login createState() => new _Login();
+  _Forget createState() => new _Forget();
 }
 
-class _Login extends State<Login> {
+class _Forget extends State<Forget> {
   //获取Key用来获取Form表单组件
   GlobalKey<FormState> loginKey = new GlobalKey<FormState>();
   String userName;
